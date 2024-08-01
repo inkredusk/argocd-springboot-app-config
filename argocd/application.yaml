@@ -7,7 +7,7 @@ spec:
   project: default
 
   source:
-    repoURL: https://github.com/inkredus/argocd-springboot-app-config.git
+    repoURL: https://github.com/inkredusk/argocd-springboot-app-config.git
     targetRevision: main
     path: argocd
   destination: 
