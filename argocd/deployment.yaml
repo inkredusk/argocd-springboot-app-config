@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: okaygeniecust
-          image: karanbalkar90/okaygeniecust:9
+          image: karanbalkar90/okaygeniecust:10
           ports:
             - containerPort: 8888
