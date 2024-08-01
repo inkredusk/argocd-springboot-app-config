@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: okaygeniecust
+spec:
+  type: ClusterIP
+  selector:
+    app: okaygeniecust
+  ports:
+  - port: 80
+    protocol: TCP
+    targetPort: 8888
+  

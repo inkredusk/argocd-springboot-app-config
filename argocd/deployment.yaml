@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: okaygeniecust
+spec:
+  selector:
+    matchLabels:
+      app: okaygeniecust
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: okaygeniecust
+    spec:
+      containers:
+        - name: okaygeniecust
+          image: karanbalkar90/okaygeniecust:8
+          ports:
+            - containerPort: 8888
