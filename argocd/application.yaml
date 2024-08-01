@@ -8,7 +8,7 @@ spec:
 
   source:
     repoURL: https://github.com/inkredus/argocd-springboot-app-config.git
-    targetRevision: argocd-test
+    targetRevision: main
     path: argocd
   destination: 
     server: https://kubernetes.default.svc
